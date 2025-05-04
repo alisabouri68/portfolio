@@ -2303,6 +2303,22 @@ video {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
 
+.bg-\[url\(\'ass\/img\/Vector\.png\'\)\] {
+  background-image: url('ass/img/Vector.png');
+}
+
+.bg-\[url\(\'assets\/img\/Vector\.png\'\)\] {
+  background-image: url('assets/img/Vector.png');
+}
+
+.bg-\[url\(\'Vector\.png\'\)\] {
+  background-image: url('Vector.png');
+}
+
+.bg-\[url\(\'\.\/Vector\.png\'\)\] {
+  background-image: url('./Vector.png');
+}
+
 .from-orange-500\/30 {
   --tw-gradient-from: rgb(249 115 22 / 0.3) var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(249 115 22 / 0) var(--tw-gradient-to-position);
