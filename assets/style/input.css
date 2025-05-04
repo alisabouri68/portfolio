@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+body{
+  @apply w-full bg-neutral-900 overflow-x-hidden scroll-smooth  
+}
+.wraper{
+    @apply grow flex flex-wrap items-center justify-center
+}
