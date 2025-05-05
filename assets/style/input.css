@@ -4,8 +4,14 @@
 @import "flowbite/src/themes/default";
 @plugin "flowbite/plugin";
 @source "../node_modules/flowbite";
+@layer base {
+@font-face {
+  font-family: 'dosis';
+  src: url(../font/Dosis-VariableFont_wght.ttf);
+}
+}
 body{
-  @apply w-full bg-neutral-900 overflow-x-hidden scroll-smooth  
+  @apply w-full bg-neutral-900 overflow-x-hidden scroll-smooth
 }
 .wraper{
     @apply grow flex flex-wrap items-center justify-center
